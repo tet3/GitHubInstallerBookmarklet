@@ -19,9 +19,9 @@ Tested and working on:
 
 |         | Windows 10 | macOS | Linux (Ubuntu) |
 |---------|------------|-------|----------------|
-| Chrome 58 |            |  yes{: .highlight .sr} |                |
-| Firefox  | [no](https://bugzilla.mozilla.org/show_bug.cgi?id=866522){: .highlight .gt }  |  [no](https://bugzilla.mozilla.org/show_bug.cgi?id=866522){: .highlight .gt } | [no](https://bugzilla.mozilla.org/show_bug.cgi?id=866522){: .highlight .gt } |
-| Safari 10 |    n/a     |  yes{: .highlight .sr } |    n/a         |
+| Chrome 58 |            |  yes |                |
+| Firefox  | [no](https://bugzilla.mozilla.org/show_bug.cgi?id=866522)  |  [no](https://bugzilla.mozilla.org/show_bug.cgi?id=866522) | [no](https://bugzilla.mozilla.org/show_bug.cgi?id=866522) |
+| Safari 10 |    n/a     |  yes |    n/a         |
 | IE11    |            |  n/a  |                | 
 | Edge    |            |  n/a  |                |
 
