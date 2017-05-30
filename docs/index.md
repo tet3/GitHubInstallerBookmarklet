@@ -8,8 +8,6 @@ But some repos of useful Salesforce platform context don't include the button, a
 
 Drag this link:
 
-[GitHub SF Deploy](javascript: function(\){for(var o=!1,t=document.getElementsByClassName("lang"\),e=0;e<t.length;++e\)"Apex"==t[e].innerHTML&&(o=!0\);"github.com"!=location.hostname||0==o?alert("This is not a GitHub Apex repository!"\):window.open("https://githubsfdeploy.herokuapp.com/app/githubdeploy"+location.pathname\)}(\);)
-
 <a href="javascipt: function(){for(var o=!1,t=document.getElementsByClassName("lang"),e=0;e<t.length;++e)"Apex"==t[e].innerHTML&&(o=!0);"github.com"!=location.hostname||0==o?alert("This is not a GitHub Apex repository!"):window.open("https://githubsfdeploy.herokuapp.com/app/githubdeploy"+location.pathname)}();">GitHub SF Deploy</a>
 
 onto your bookmarks bar, or into a bookmark folder. Now, when you are on a GitHub repository that *doesn't* have the handy button on it, click the bookmark. The Javascript does a basic sanity check to make sure that you're a) on GitHub, and b) on a repo with Apex in it. Then it redirects you to the GitHub Salesforce Deploy Tool, passing in the repo's URL. 
