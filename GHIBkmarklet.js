@@ -1,14 +1,12 @@
 javascript:(function(){ 
-	var isApex = false;
+	var isApex = 0;
 	var sourceLangs = document.getElementsByClassName('lang');
 		for (var i = 0; i < sourceLangs.length; ++i) {
-			var l = sourceLangs[i]; 
-			if(l.innerHTML == 'Apex') {
-				isApex = true;
-				// alert('This is an Apex repo');
+			if(sourceLangs[i].innerHTML == 'Apex') {
+				isApex = 1;
 			}
 		}
-    if(location.hostname != 'github.com' || isApex == false) {
+    if(location.hostname != 'github.com' || !isApex ) {
 		alert('This is not a GitHub Apex repository!');
 	}
 	else {
